@@ -7,7 +7,11 @@ Welcome to my portfolio! Here you'll find a collection of my projects, skills, a
 - [Contact](#contact)
 
 ## About Me
-Hi! I'm [Your Name], a [Your Profession] with a passion for [Your Interests]. I specialize in [Your Specialization] and have experience in [Relevant Experience]. I love working on projects that [What You Enjoy in Projects].
+I have been a developer since I was a child, with a passion for creating and innovating.
+I specialize in web and application development, and I am also a proficient programmer.
+I have been active on Garry's Mod since 2012, contributing to the community with my skills and expertise.
+My experience includes working with frameworks such as Clockwork, Nutscript, and Helix.
+I am adept at both front-end and back-end development, ensuring a comprehensive approach to building robust and dynamic applications.
 
 ## Contact
 - **Email:** mxd.dev.contact@gmail.com
