@@ -13,9 +13,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const popupContent = document.querySelector('.popup-content');
     const popupClose = document.querySelector('.popup-close');
     const videos = document.querySelectorAll('.plugin-video video');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navUl = document.querySelector('nav ul');
 
-    document.querySelector('.menu-toggle').addEventListener('click', function () {
-        document.querySelector('nav ul').classList.toggle('show');
+    menuToggle.addEventListener('click', () => {
+        navUl.classList.toggle('show');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!nav.contains(e.target) && !menuToggle.contains(e.target)) {
+            navUl.classList.remove('show');
+        }
+    });
+
+    // Close menu when resizing to larger screen
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {
+            navUl.classList.remove('show');
+        }
     });
 
     videos.forEach(video => {
