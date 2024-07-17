@@ -343,23 +343,44 @@ h2 {
 }
 
 .cursor {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border: 2px solid var(--cursor-color);
     border-radius: 50%;
     position: fixed;
     pointer-events: none;
-    transition: transform 0.2s ease, border-color 0.3s ease;
+    transition: var(--transition);
     z-index: 10001;
     mix-blend-mode: difference;
 }
 
+.cursor::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    background-color: var(--cursor-color);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: var(--transition);
+}
+
+.cursor.hover {
+    transform: scale(1.5);
+    background-color: rgba(74, 144, 226, 0.1);
+}
+
 @media screen and (max-width: 768px) {
     nav {
-        position: static;
+        position: fixed;
         width: 100%;
         height: auto;
-        padding: 10px;
+        padding: 15px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .nav-content {
@@ -398,7 +419,7 @@ h2 {
 
     main {
         margin-left: 0;
-        padding: 20px;
+        padding: 80px 20px 20px;
     }
 
     .plugin-showcase-container {
