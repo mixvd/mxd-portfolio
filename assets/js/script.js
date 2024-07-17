@@ -115,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'medal-system': {
                 title: 'Medal System',
                 description: `
+                <p>A simple medal system.</p>
                 <ul>
                     <li>Simple medal system that shows up in player tooltip with a management menu for
                         staff/faction/class</li>
