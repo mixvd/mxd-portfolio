@@ -14,6 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const popupClose = document.querySelector('.popup-close');
     const videos = document.querySelectorAll('.plugin-video video');
 
+    document.querySelector('.menu-toggle').addEventListener('click', function () {
+        document.querySelector('nav ul').classList.toggle('show');
+    });
+
     videos.forEach(video => {
         video.disablePictureInPicture = true;
         video.controlsList = "nodownload noremoteplayback";
