@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     videos.forEach(video => {
         video.disablePictureInPicture = true;
-        video.controlsList = "nodownload nofullscreen noremoteplayback";
+        video.controlsList = "nodownload noremoteplayback";
     });
 
     learnMoreButtons.forEach(button => {

@@ -229,7 +229,6 @@ h2 {
     margin-top: 10px;
 }
 
-.plugin-video video::-webkit-media-controls-fullscreen-button,
 .plugin-video video::-webkit-media-controls-picture-in-picture-button,
 .plugin-video video::-webkit-media-controls-download-button {
     display: none !important;
