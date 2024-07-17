@@ -354,7 +354,7 @@ h2 {
     mix-blend-mode: difference;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     nav {
         width: 200px;
     }
@@ -363,25 +363,36 @@ h2 {
         margin-left: 200px;
         padding: 30px;
     }
+}
 
-    .cta-button {
-        padding: 8px 16px;
+@media (max-width: 992px) {
+    nav {
+        width: 180px;
     }
 
-    .plugin-showcase {
-        padding: 15px;
+    main {
+        margin-left: 180px;
+        padding: 25px;
     }
 
-    .plugin-showcase .learn-more-button {
-        padding: 8px 16px;
+    .plugin-showcase-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
 @media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+
     nav {
         width: 100%;
-        height: auto;
-        position: static;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px 20px;
+        z-index: 1000;
     }
 
     .nav-content {
@@ -390,18 +401,52 @@ h2 {
         align-items: center;
     }
 
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
     nav ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--nav-bg-color);
+        flex-direction: column;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul.show {
         display: flex;
-        justify-content: space-around;
-        margin: 0;
     }
 
     nav ul li {
         margin-bottom: 0;
     }
 
+    nav ul li a {
+        padding: 10px 20px;
+    }
+
     .nav-footer {
         display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 24px;
+        color: var(--nav-text-color);
+        cursor: pointer;
     }
 
     main {
@@ -409,13 +454,8 @@ h2 {
         padding: 20px;
     }
 
-    .plugin-showcase {
-        flex: 1 1 100%;
-    }
-
-    .plugin-info {
-        padding-right: 0;
-        margin-bottom: 20px;
+    .theme-toggle {
+        top: 70px;
     }
 
     .about-content {
@@ -429,7 +469,7 @@ h2 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     body {
         font-size: 14px;
     }
@@ -439,30 +479,38 @@ h2 {
     }
 
     .cta-button {
-        padding: 6px 12px;
+        padding: 8px 16px;
     }
 
     .plugin-showcase {
-        padding: 10px;
+        padding: 15px;
     }
 
     .plugin-showcase .learn-more-button {
-        padding: 6px 12px;
+        padding: 8px 16px;
     }
 
     .plugin-info h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .plugin-info p {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
     }
 
     .plugin-info ul {
-        padding-left: 15px;
+        padding-left: 20px;
     }
 
     .plugin-info ul li {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
+    }
+
+    .popup-content {
+        padding: 15px;
+    }
+
+    .popup-content h3 {
+        font-size: 1.5rem;
     }
 }
