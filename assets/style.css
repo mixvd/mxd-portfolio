@@ -141,7 +141,7 @@ section {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
