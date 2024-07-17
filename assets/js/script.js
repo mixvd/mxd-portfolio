@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const popupOverlay = document.querySelector('.popup-overlay');
     const popupContent = document.querySelector('.popup-content');
     const popupClose = document.querySelector('.popup-close');
+    const videos = document.querySelectorAll('.plugin-video video');
+
+    videos.forEach(video => {
+        video.disablePictureInPicture = true;
+        video.controlsList = "nodownload nofullscreen noremoteplayback";
+    });
 
     learnMoreButtons.forEach(button => {
         button.addEventListener('click', (e) => {

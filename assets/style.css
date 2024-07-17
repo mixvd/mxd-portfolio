@@ -229,6 +229,11 @@ h2 {
     margin-top: 10px;
 }
 
+.plugin-video video::-webkit-media-controls-fullscreen-button,
+.plugin-video video::-webkit-media-controls-picture-in-picture-button {
+    display: none !important;
+}
+
 .plugin-showcase .learn-more-button {
     display: inline-block;
     background-color: var(--accent-color);
