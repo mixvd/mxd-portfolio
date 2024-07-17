@@ -354,6 +354,29 @@ h2 {
     mix-blend-mode: difference;
 }
 
+@media (max-width: 1024px) {
+    nav {
+        width: 200px;
+    }
+
+    main {
+        margin-left: 200px;
+        padding: 30px;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+    }
+
+    .plugin-showcase {
+        padding: 15px;
+    }
+
+    .plugin-showcase .learn-more-button {
+        padding: 8px 16px;
+    }
+}
+
 @media (max-width: 768px) {
     nav {
         width: 100%;
@@ -403,5 +426,43 @@ h2 {
     .profile-picture {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        padding: 6px 12px;
+    }
+
+    .plugin-showcase {
+        padding: 10px;
+    }
+
+    .plugin-showcase .learn-more-button {
+        padding: 6px 12px;
+    }
+
+    .plugin-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .plugin-info p {
+        font-size: 0.9rem;
+    }
+
+    .plugin-info ul {
+        padding-left: 15px;
+    }
+
+    .plugin-info ul li {
+        margin-bottom: 3px;
     }
 }
