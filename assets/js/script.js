@@ -223,10 +223,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Load theme preference from localStorage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        body.classList.toggle('dark-mode', savedTheme === 'dark');
+    }
+    updateTheme();
+
     // Theme toggle
     themeToggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         updateTheme();
+        // Save theme preference to localStorage
+        const currentTheme = body.classList.contains('dark-mode') ? 'dark' : 'light';
+        localStorage.setItem('theme', currentTheme);
     });
 
     function updateTheme() {
