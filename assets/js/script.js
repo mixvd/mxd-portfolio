@@ -177,6 +177,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Easy file configuration.</li>
                 </ul>
                 `
+            },
+            'advmedical': {
+                title: 'Advanced Medical System',
+                description: `
+                <p>An advanced medical system that handle multiple injury.</p>
+                <ul>
+                    <li>Handle broken bones</li>
+                    <li>Handle bleeding</li>
+                    <li>Handle pain</li>
+                    <li>Handle burning damage</li>
+                    <li>3D2D for checking vitals</li>
+                    <li>Personal HUD to view own vitals</li>
+                    <li>Multiple items to heal/boost yourself</li>
+                </ul>
+                `
             }
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
