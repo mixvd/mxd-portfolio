@@ -190,6 +190,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>3D2D for checking vitals</li>
                     <li>Personal HUD to view own vitals</li>
                     <li>Multiple items to heal/boost yourself</li>
+                    <li>Revive system included</li>
+                    <li>Draggable dead corpses</li>
                 </ul>
                 `
             }
