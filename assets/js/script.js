@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Reset scroll position to 0 on page refresh
     window.scrollTo(0, 0);
 
     const navLinks = document.querySelectorAll('nav ul li a');
@@ -38,23 +37,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function showPopup(plugin) {
-        // Update the content based on the plugin
         const pluginInfo = getPluginInfo(plugin);
         popupContent.querySelector('h3').textContent = pluginInfo.title;
-        popupContent.querySelector('p').innerHTML = pluginInfo.description; // Use innerHTML to handle HTML content
+        popupContent.querySelector('p').innerHTML = pluginInfo.description;
 
-        // Show the popup
         popupOverlay.classList.add('active');
-        document.body.style.overflow = 'hidden'; // Disable scrolling
+        document.body.style.overflow = 'hidden';
     }
 
     function hidePopup() {
         popupOverlay.classList.remove('active');
-        document.body.style.overflow = ''; // Enable scrolling
+        document.body.style.overflow = '';
     }
 
     function getPluginInfo(plugin) {
-        // Add more plugin information as needed
         const plugins = {
             'serial-number': {
                 title: 'Serial Number',
@@ -199,12 +195,10 @@ document.addEventListener('DOMContentLoaded', () => {
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
 
-    // Disable right-click
     document.addEventListener('contextmenu', (e) => {
         e.preventDefault();
     });
 
-    // Navigation and section switching
     function switchSection(targetId) {
         navLinks.forEach(link => {
             if (link.getAttribute('href').substring(1) === targetId) {
@@ -232,7 +226,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // View My Work button functionality
     if (viewWorkButton) {
         viewWorkButton.addEventListener('click', (e) => {
             e.preventDefault();
@@ -240,18 +233,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Load theme preference from localStorage
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         body.classList.toggle('dark-mode', savedTheme === 'dark');
     }
     updateTheme();
 
-    // Theme toggle
     themeToggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         updateTheme();
-        // Save theme preference to localStorage
         const currentTheme = body.classList.contains('dark-mode') ? 'dark' : 'light';
         localStorage.setItem('theme', currentTheme);
     });
@@ -287,7 +277,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Custom cursor
     document.addEventListener('mousemove', (e) => {
         cursor.style.left = e.clientX + 'px';
         cursor.style.top = e.clientY + 'px';
@@ -301,11 +290,9 @@ document.addEventListener('DOMContentLoaded', () => {
         cursor.style.transform = 'scale(1)';
     });
 
-    // Initialize theme
     updateTheme();
 });
 
-// Reset scroll position to 0 on page refresh
 window.addEventListener('beforeunload', () => {
     window.scrollTo(0, 0);
 });
