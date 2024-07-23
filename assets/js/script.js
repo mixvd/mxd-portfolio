@@ -190,7 +190,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Draggable dead corpses</li>
                 </ul>
                 `
-            }
+            },
+            'resistancelocker': {
+                title: 'Resistance Locker',
+                description: `
+                <p>Add a resistance locker to switch uniform when you are in Citizen faction.</p>
+                <ul>
+                    <li>Can't drop/unequip while equipped.</li>
+                    <li>Configuration in-game</li>
+                    <li>Timer between each switch to prevent abuse</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
