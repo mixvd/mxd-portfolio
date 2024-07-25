@@ -396,40 +396,36 @@ h2 {
         position: fixed;
         width: 100%;
         height: auto;
-        padding: 15px;
-        flex-direction: row;
-        justify-content: space-between;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
+        z-index: 1000;
     }
 
     .nav-content {
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
     }
 
     .logo {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 
     nav ul {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
+        margin-bottom: 10px;
     }
 
     nav ul li {
-        margin-bottom: 0;
+        margin: 0 5px;
     }
 
     nav ul li a {
         padding: 5px;
-        font-size: 0.9rem;
-    }
-
-    nav ul li:nth-child(3),
-    nav ul li:nth-child(2) {
-        display: none;
+        font-size: 0.8rem;
     }
 
     .nav-footer {
@@ -438,7 +434,7 @@ h2 {
 
     main {
         margin-left: 0;
-        padding: 80px 20px 20px;
+        padding: 80px 10px 20px;
     }
 
     .plugin-showcase-container {
@@ -448,7 +444,7 @@ h2 {
     .theme-toggle {
         top: 10px;
         right: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .cursor {
@@ -458,14 +454,53 @@ h2 {
     * {
         cursor: auto;
     }
-}
 
-@media screen and (max-width: 480px) {
     h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .plugin-showcase {
         padding: 10px;
+    }
+
+    .plugin-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .plugin-info p {
+        font-size: 0.9rem;
+    }
+
+    .learn-more-button {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul li a {
+        font-size: 0.7rem;
+        padding: 3px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .plugin-info h3 {
+        font-size: 1rem;
+    }
+
+    .plugin-info p {
+        font-size: 0.8rem;
+    }
+
+    .learn-more-button {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+    }
+
+    .theme-toggle {
+        font-size: 16px;
     }
 }
