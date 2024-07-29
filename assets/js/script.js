@@ -202,6 +202,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
                 `
             },
+            'tyingoverhaul': {
+                title: 'Tying Overhaul',
+                description: `
+                <p>An overhaul of the tying system.</p>
+                <ul>
+                    <li>You can now drag tied player by pressing ALT+R while looking at them</li>
+                    <li>You can gag player and their sentence to the chat will be unreadable</li>
+                    <li>You can blindfold player to make their screen become full black</li>
+                    <li>Including commands for admin to manage gag and blindfold</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
