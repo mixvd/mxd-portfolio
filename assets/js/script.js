@@ -214,6 +214,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
                 `
             },
+            'reshade': {
+                title: 'ReShade',
+                description: `
+                <p>Add a fully customizable shader in-game.</p>
+                <ul>
+                    <li>Only in LUA</li>
+                    <li>Intensity, Contrast, Saturation, Bloom, Sharpen, Color Temperature, Tonemap, Ambient Occlusion, Depth of Field, LUT Intensity, LUT Contrast</li>
+                    <li>Also include an automatic adaptive lighting</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
