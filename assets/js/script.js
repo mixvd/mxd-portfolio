@@ -225,6 +225,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
                 `
             },
+            'lootbox': {
+                title: 'Lootbox',
+                description: `
+                <p>Add a simple lootbox system.</p>
+                <ul>
+                    <li>Lootboxes are auto-generated using tables</li>
+                    <li>You can set each item a drop percentage</li>
+                    <li>Easily configurable through only one file</li>
+                    <li>Simple but clean UI</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
