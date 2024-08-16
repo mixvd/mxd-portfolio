@@ -237,6 +237,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
                 `
             },
+            'cooking': {
+                title: 'Cooking System',
+                description: `
+                <p>Add a simple cooking system.</p>
+                <ul>
+                    <li>Cooking system with recipes, stoves, and pots</li>
+                    <li>Recipe book item for viewing available recipes</li>
+                    <li>Stove and pot entities that can be placed and interacted with</li>
+                    <li>Ability to add ingredients to pots</li>
+                    <li>Cooking process with timer and visual effects (smoke)</li>
+                    <li>Burn timer for overcooked food</li>
+                    <li>Inventory integration for adding/removing ingredients and cooked food</li>
+                    <li>Configuration options (e.g., burn time)</li>
+                    <li>Prevention of physgun/toolgun abuse on cooking entities</li>
+                    <li>Extra ingredient return system when cooking</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
