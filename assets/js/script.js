@@ -255,6 +255,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
                 `
             },
+            'advforcefield': {
+                title: 'Advanced Forcefield',
+                description: `
+                <p>An advanced forcefield system recognition using Half-Life 2 camera.</p>
+                <ul>
+                    <li>You need to have a valid CID to go through forcefield.</li>
+                    <li>Forcefield is locked by default and will deal you damages if do not verify your identity.</li>
+                    <li>You can interact with the camera to verify your identity.</li>
+                    <li>Custom derma to show the player the mechanic.</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
