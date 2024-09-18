@@ -267,6 +267,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
                 `
             },
+            'flyer': {
+                title: 'Flyer',
+                description: `
+                <p>A simple flyer system where you can set materials from Garry's Mod materials folder.</p>
+                <ul>
+                    <li>You can set material with a path.</li>
+                    <li>Flyer are persistent.</li>
+                    <li>You can clean flyer with an item.</li>
+                    <li>Fully in-game configurable.</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
