@@ -279,6 +279,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
                 `
             },
+            'laundry': {
+                title: 'Laundry System',
+                description: `
+                <p>A simple laundry system where clothing now have durability and wet parameters.</p>
+                <ul>
+                    <li>Clothing items now have durability and wet parameters.</li>
+                    <li>You can wash your clothes to restore the durability, if it goes to 0 the clothes are not wearable anymore.</li>
+                    <li>You can dry you clothes, if you do not dry them, the durability will decrease more faster.</li>
+                    <li>Fully in-game configurable, wash time, dry time, restore durability percent, and more.</li>
+                    <li>Including a clean UI/UX for easy understanding on how the system work for players.</li>
+                    <li>You can set ITEM.noDurability = true if you want certain clothes to have no durability.</li>
+                    <li>You can set ITEM.durability = 100 if you want certain amount of durability on your clothes.</li>
+                </ul>
+                `
+            },
         };
         return plugins[plugin] || { title: 'Unknown Plugin', description: 'No information available.' };
     }
