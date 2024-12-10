@@ -16,5 +16,6 @@ I am adept at both front-end and back-end development, ensuring a comprehensive 
 ## Contact
 - **Email:** mxd.dev.contact@gmail.com
 - **Discord:** mixvd
+- **Portfolio:** https://mixvd.github.io/mxd-portfolio/
 
 Thank you for visiting my portfolio! Feel free to reach out if you have any questions or would like to collaborate on a project.
