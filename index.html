@@ -4,368 +4,491 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mxd</title>
+    <title>mxd | Helix Framework Developer</title>
+    <meta name="description"
+        content="Portfolio of mxd, a developer specializing in Helix Framework plugins for Garry's Mod">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-    <nav>
-        <div class="nav-content">
-            <div class="logo">
-                <h1>mxd.</h1>
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-text">mxd.</div>
+            <div class="progress-bar">
+                <div class="progress"></div>
             </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="#home">mxd<span>.</span></a>
+        </div>
+        <nav class="desktop-nav">
             <ul>
-                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="#plugins"><i class="fas fa-plug"></i> Helix Plugins</a></li>
-                <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
-                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#plugins">Plugins</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </nav>
+        <div class="theme-toggle">
+            <i class="fas fa-sun active"></i>
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
 
-            <div class="nav-footer">
-                <div class="social-icons">
-                    <a href="https://discord.gg/JsTA8sEtYQ" target="_blank"><i class="fab fa-discord"></i></a>
-                    <a href="https://github.com/mixvd" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://steamcommunity.com/id/mixed10e" target="_blank"><i class="fab fa-steam"></i></a>
-                    <a href="https://www.gmodstore.com/users/mxd/reputation" target="_blank"><i
-                            class="fas fa-store"></i></a>
-                </div>
-                <p class="copyright">&copy; 2024 mxd. All rights reserved.</p>
-            </div>
-
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#plugins">Plugins</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-social">
+            <a href="https://discord.gg/JsTA8sEtYQ" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://github.com/mixvd" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://steamcommunity.com/id/mixed10e" target="_blank"><i class="fab fa-steam"></i></a>
+            <a href="https://www.gmodstore.com/users/mxd/reputation" target="_blank"><i class="fas fa-store"></i></a>
         </div>
     </nav>
-    <main>
 
+    <main>
         <section id="home" class="active">
-            <h2>Welcome to My Portfolio</h2>
-            <p>Explore my journey as a developer, from my early beginnings to my current projects.
-            <p>Discover my work in web and application development, and see how I contribute to the community with
-                innovative plugins.</p>
-            <p>Dive into my portfolio to learn more about my skills in both front-end and back-end development.</p>
-            <a href="#plugins" class="cta-button">View My Work</a>
+            <div class="container">
+                <div class="hero">
+                    <h1>Helix Framework <span>Developer</span></h1>
+                    <p>Crafting innovative and high-quality plugins for Garry's Mod since 2012</p>
+                    <div class="hero-cta">
+                        <a href="#plugins" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="number">10+</span>
+                            <span class="label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">20+</span>
+                            <span class="label">Custom Plugins</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">3+</span>
+                            <span class="label">Frameworks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </section>
 
         <section id="plugins">
-            <h2>Private Plugins</h2>
-            <div class="plugin-showcase-container">
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Laundry System</h3>
-                        <p>A simple laundry system.</p>
-                    </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/laundry.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="laundry">Features List</a>
+            <div class="container">
+                <div class="section-header">
+                    <h2>My <span>Plugins</span></h2>
+                    <p>A showcase of my work for the Helix Framework in Garry's Mod</p>
                 </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Flyer</h3>
-                        <p>A simple flyer system.</p>
-                    </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/flyer.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="flyer">Features List</a>
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All Plugins</button>
+                    <button class="filter-btn" data-filter="private">Private</button>
+                    <button class="filter-btn" data-filter="public">Public</button>
                 </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Advanced Forcefield</h3>
-                        <p>An advanced forcefield system.</p>
+                <div class="plugins-grid">
+                    <!-- Private Plugins -->
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/laundry.jpg" muted>
+                                <source src="assets/video/laundry.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Laundry System</h3>
+                            <p>A comprehensive system for laundering money</p>
+                            <a href="#" class="view-details" data-plugin="laundry">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/advforcefield.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="advforcefield">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Cooking System</h3>
-                        <p>A simple cooking system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/flyer.jpg" muted>
+                                <source src="assets/video/flyer.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Flyer</h3>
+                            <p>Create and distribute custom flyers in-game</p>
+                            <a href="#" class="view-details" data-plugin="flyer">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/cooking.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="cooking">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Lootbox</h3>
-                        <p>A simple lootbox system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/advforcefield.jpg" muted>
+                                <source src="assets/video/advforcefield.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Advanced Forcefield</h3>
+                            <p>Sophisticated protection system with customizable parameters</p>
+                            <a href="#" class="view-details" data-plugin="advforcefield">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/lootbox.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="lootbox">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>ReShade</h3>
-                        <p>A fully customizable shader in-game.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/cooking.jpg" muted>
+                                <source src="assets/video/cooking.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Cooking System</h3>
+                            <p>Create and cook recipes with custom ingredients</p>
+                            <a href="#" class="view-details" data-plugin="cooking">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/reshade.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="reshade">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Tying Overhauled</h3>
-                        <p>An overhaul of the tying system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/lootbox.jpg" muted>
+                                <source src="assets/video/lootbox.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Lootbox</h3>
+                            <p>Customizable lootbox system with probability-based rewards</p>
+                            <a href="#" class="view-details" data-plugin="lootbox">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/tyingoverhaul.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="tyingoverhaul">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Resistance Locker</h3>
-                        <p>A simple resistance locker.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/reshade.jpg" muted>
+                                <source src="assets/video/reshade.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>ReShade</h3>
+                            <p>In-game graphics enhancement with customizable parameters</p>
+                            <a href="#" class="view-details" data-plugin="reshade">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/resistancelocker.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="resistancelocker">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Medical System</h3>
-                        <p>An advanced medical system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/tyingoverhaul.jpg" muted>
+                                <source src="assets/video/tyingoverhaul.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Tying Overhauled</h3>
+                            <p>Enhanced restraint system with advanced features</p>
+                            <a href="#" class="view-details" data-plugin="tyingoverhaul">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/advmedicalsys.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="advmedical">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Wiretaps</h3>
-                        <p>An advanced wiretaps system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/resistancelocker.jpg" muted>
+                                <source src="assets/video/resistancelocker.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Resistance Locker</h3>
+                            <p>Uniform switching system for resistance factions</p>
+                            <a href="#" class="view-details" data-plugin="resistancelocker">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/wiretap.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="wiretaps">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Serial Number</h3>
-                        <p>A serial number system for weaponry.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/advmedicalsys.jpg" muted>
+                                <source src="assets/video/advmedicalsys.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Medical System</h3>
+                            <p>Complex medical simulation with injuries and treatments</p>
+                            <a href="#" class="view-details" data-plugin="advmedical">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/serial_number.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="serial-number">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>NPC Drop Config Menu</h3>
-                        <p>A menu to config NPC Drop.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/wiretap.jpg" muted>
+                                <source src="assets/video/wiretap.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Wiretaps</h3>
+                            <p>Advanced surveillance system with monitoring capabilities</p>
+                            <a href="#" class="view-details" data-plugin="wiretaps">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/npc_drop_config_menu.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="npc-menu">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Gathering</h3>
-                        <p>A simple gathering system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/serial_number.jpg" muted>
+                                <source src="assets/video/serial_number.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Serial Number</h3>
+                            <p>Weapon tracking system with forensic capabilities</p>
+                            <a href="#" class="view-details" data-plugin="serial-number">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/woodrock_mining.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="gathering">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Medal System</h3>
-                        <p>A simple medal system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/npc_drop_config_menu.jpg" muted>
+                                <source src="assets/video/npc_drop_config_menu.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>NPC Drop Config Menu</h3>
+                            <p>In-game interface for configuring NPC loot drops</p>
+                            <a href="#" class="view-details" data-plugin="npc-menu">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/medal_system.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="medal-system">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Door Class Group</h3>
-                        <p>A simple door class group.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/woodrock_mining.jpg" muted>
+                                <source src="assets/video/woodrock_mining.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Gathering</h3>
+                            <p>Resource collection system with respawning nodes</p>
+                            <a href="#" class="view-details" data-plugin="gathering">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/doorclassgroup.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="doorclass">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Airdrop</h3>
-                        <p>A simple airdrop system.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/medal_system.jpg" muted>
+                                <source src="assets/video/medal_system.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Medal System</h3>
+                            <p>Achievement and recognition system with visual badges</p>
+                            <a href="#" class="view-details" data-plugin="medal-system">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/airdrop.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="airdrop">Features List</a>
-                </div>
-            </div>
 
-            <h2>Public Plugins</h2>
-            <div class="plugin-showcase-container">
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Cinematic Menu</h3>
-                        <p>A simple menu to create cinematic.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/doorclassgroup.jpg" muted>
+                                <source src="assets/video/doorclassgroup.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Door Class Group</h3>
+                            <p>Advanced door access control based on class groups</p>
+                            <a href="#" class="view-details" data-plugin="doorclass">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/cinematic_menu.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="cinematic-menu">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Slot Machine</h3>
-                        <p>A simple gambling plugin.</p>
+                    <div class="plugin-card" data-category="private">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/airdrop.jpg" muted>
+                                <source src="assets/video/airdrop.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Airdrop</h3>
+                            <p>Scheduled supply drops at designated locations</p>
+                            <a href="#" class="view-details" data-plugin="airdrop">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/slot_machine.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="slot-machine">Features List</a>
-                </div>
 
-                <div class="plugin-showcase">
-                    <div class="plugin-info">
-                        <h3>Broken Glass</h3>
-                        <p>A simple broken glass system.</p>
+                    <!-- Public Plugins -->
+                    <div class="plugin-card" data-category="public">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/cinematic_menu.jpg" muted>
+                                <source src="assets/video/cinematic_menu.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Cinematic Menu</h3>
+                            <p>Interface for creating immersive cinematics</p>
+                            <a href="#" class="view-details" data-plugin="cinematic-menu">View Details</a>
+                        </div>
                     </div>
-                    <div class="plugin-video">
-                        <video controls>
-                            <source src="assets/video/broken_glass.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <a href="#" class="learn-more-button" data-plugin="broken-glass">Features List</a>
-                </div>
 
+                    <div class="plugin-card" data-category="public">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/slot_machine.jpg" muted>
+                                <source src="assets/video/slot_machine.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Slot Machine</h3>
+                            <p>Fully functional gambling machine with customizable odds</p>
+                            <a href="#" class="view-details" data-plugin="slot-machine">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="plugin-card" data-category="public">
+                        <div class="plugin-preview">
+                            <video poster="assets/img/thumbnails/broken_glass.jpg" muted>
+                                <source src="assets/video/broken_glass.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="plugin-info">
+                            <h3>Broken Glass</h3>
+                            <p>Environmental enhancement for City 8: Definitive Edition</p>
+                            <a href="#" class="view-details" data-plugin="broken-glass">View Details</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I have been a developer since I was a child, with a passion for creating and innovating.</p>
-                    <p>I specialize in web and application development, and I am also a proficient programmer.</p>
-                    <p>I have been active on Garry's Mod since 2012, contributing to the community with my skills and
-                        expertise.</p>
-                    <p>My experience includes working with frameworks such as Clockwork, Nutscript, and Helix.</p>
-                    <p>I am adept at both front-end and back-end development, ensuring a comprehensive approach to
-                        building robust and dynamic applications.</p>
+            <div class="container">
+                <div class="section-header">
+                    <h2>About <span>Me</span></h2>
+                    <p>My journey and expertise in Garry's Mod development</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I've been a passionate developer since childhood, specializing in creating innovative
+                            solutions for Garry's Mod since 2012.</p>
+
+                        <div class="expertise">
+                            <div class="expertise-item">
+                                <i class="fas fa-code"></i>
+                                <h3>Framework Experience</h3>
+                                <p>Extensive experience with Helix, Nutscript, and Clockwork frameworks.</p>
+                            </div>
+
+                            <div class="expertise-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Development Skills</h3>
+                                <p>Proficient in both frontend and backend development, creating seamless user
+                                    experiences.</p>
+                            </div>
+
+                            <div class="expertise-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <h3>Innovation</h3>
+                                <p>Constantly exploring new techniques and approaches to enhance gameplay mechanics.</p>
+                            </div>
+
+                            <div class="expertise-item">
+                                <i class="fas fa-users"></i>
+                                <h3>Community Contribution</h3>
+                                <p>Active member of the Garry's Mod development community, creating and sharing
+                                    solutions since 2012.</p>
+                            </div>
+                        </div>
+
+                        <p>My goal is to create plugins that not only function flawlessly but also enhance the
+                            roleplaying experience with intuitive interfaces and immersive features.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>If you wish to contact me, talk about a project or something else, send me a message via
-                    <p>Discord: <strong>mixvd</strong></p>
-                    <p>Email: <strong>mxd.dev.contact@gmail.com</strong></p>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact <span>Me</span></h2>
+                    <p>Interested in working together? Get in touch!</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fab fa-discord"></i>
+                            <h3>Discord</h3>
+                            <p>mixvd</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>mxd.dev.contact@gmail.com</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-store"></i>
+                            <h3>GmodStore</h3>
+                            <a href="https://www.gmodstore.com/users/mxd/reputation" target="_blank">View Profile</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fab fa-steam"></i>
+                            <h3>Steam</h3>
+                            <a href="https://steamcommunity.com/id/mixed10e" target="_blank">View Profile</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <div class="popup-overlay">
-            <div class="popup-content">
-                <button class="popup-close">&times;</button>
-                <h3>Plugin Title</h3>
-                <p>More information about the plugin will be displayed here.</p>
-            </div>
-        </div>
-
     </main>
 
-    <div class="theme-toggle">
-        <i class="fas fa-sun active"></i>
-        <i class="fas fa-moon"></i>
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://discord.gg/JsTA8sEtYQ" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://github.com/mixvd" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://steamcommunity.com/id/mixed10e" target="_blank"><i class="fab fa-steam"></i></a>
+                <a href="https://www.gmodstore.com/users/mxd/reputation" target="_blank"><i
+                        class="fas fa-store"></i></a>
+            </div>
+            <p>&copy; 2025 mxd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h3>Plugin Title</h3>
+            </div>
+            <div class="modal-body">
+                <p>Plugin description will appear here.</p>
+            </div>
+        </div>
     </div>
-    <div class="cursor"></div>
 
     <script src="assets/js/script.js"></script>
 </body>
