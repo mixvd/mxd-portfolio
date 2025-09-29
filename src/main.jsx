@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-// Apply theme immediately before React renders
 const isDarkMode = localStorage.getItem('darkMode') === 'true';
 if (isDarkMode) {
   document.body.classList.add('dark-mode');

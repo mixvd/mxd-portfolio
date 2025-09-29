@@ -29,7 +29,6 @@ const PurchaseModal = ({ plugin, onClose }) => {
 
   const handleContactClick = () => {
     onClose();
-    // Scroll to contact section
     const contactSection = document.getElementById('contact');
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: 'smooth' });

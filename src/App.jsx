@@ -27,7 +27,6 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Update active section based on scroll position
   useEffect(() => {
     if (isLoading) return;
 

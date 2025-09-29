@@ -13,7 +13,6 @@ export const useTheme = () => {
 export const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem('darkMode') === 'true';
-    // Apply theme immediately
     if (savedTheme) {
       document.body.classList.add('dark-mode');
     } else {

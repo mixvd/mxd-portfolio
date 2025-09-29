@@ -7,7 +7,6 @@ const PluginCard = ({ plugin, onViewDetails, onPurchase }) => {
   const handlePlayClick = () => {
     if (videoRef.current) {
       if (videoRef.current.paused) {
-        // Pause all other videos
         document.querySelectorAll('.plugin-preview video').forEach(video => {
           if (video !== videoRef.current) {
             video.pause();
