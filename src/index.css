@@ -1365,6 +1365,17 @@ footer p {
         transform: translateY(0) !important;
     }
 
+    .theme-toggle {
+        position: absolute;
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        z-index: 999;
+    }    
+
     .plugins-grid {
         grid-template-columns: 1fr;
     }
