@@ -32,3 +32,7 @@ dist-ssr
 
 # OS generated files
 Thumbs.db
+
+# Package files
+package-lock.json
+package.json
