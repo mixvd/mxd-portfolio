@@ -1,10 +1,24 @@
 export const pluginData = {
-    'discord_integration': {
-        title: 'Discord Integration',
-        video: 'assets/video/oocdiscord_logsreqwest.mp4',
-        poster: 'assets/img/thumbnails_large/discord_integration_large.png',
-        category: 'private',
-        description: `
+  'raid_system': {
+    title: 'Raid System',
+    video: 'assets/video/raid_system.mp4',
+    poster: 'assets/img/thumbnails_large/raid_system_large.png',
+    category: 'private',
+    description: `
+      <p>A complete raid system for your servers and players.</p>
+      <ul>
+        <li>Raid system for your servers and players.</li>
+        <li>Easy to use and configure.</li>
+        <li>MySQL database required.</li>
+      </ul>
+    `
+  },
+  'discord_integration': {
+    title: 'Discord Integration',
+    video: 'assets/video/oocdiscord_logsreqwest.mp4',
+    poster: 'assets/img/thumbnails_large/discord_integration_large.png',
+    category: 'private',
+    description: `
       <p>Integrate your server with Discord, with OOC between Discord and the server and more.</p>
       <ul>
         <li>OOC between Discord and the server.</li>
@@ -13,13 +27,13 @@ export const pluginData = {
         <li>Easy to use and configure.</li>
       </ul>
     `
-    },
-    'guild_system': {
-        title: 'Guild System',
-        video: 'assets/video/guildsystem.mp4',
-        poster: 'assets/img/thumbnails_large/guild_system_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'guild_system': {
+    title: 'Guild System',
+    video: 'assets/video/guildsystem.mp4',
+    poster: 'assets/img/thumbnails_large/guild_system_large.png',
+    category: 'for-sale',
+    description: `
       <p>A complete guild system for your servers and players.</p>
       <ul>
         <li>Guild system for your servers and players.</li>
@@ -27,13 +41,13 @@ export const pluginData = {
         <li>MySQL database required.</li>
       </ul>
     `
-    },
-    'gambling_machine': {
-        title: 'Gambling Machine',
-        video: 'assets/video/gambling_machine_resonance.mp4',
-        poster: 'assets/img/thumbnails_large/gambling_machine_large.png',
-        category: 'private',
-        description: `
+  },
+  'gambling_machine': {
+    title: 'Gambling Machine',
+    video: 'assets/video/gambling_machine_resonance.mp4',
+    poster: 'assets/img/thumbnails_large/gambling_machine_large.png',
+    category: 'private',
+    description: `
       <p>A complete gambling machine made for RESONANCE. NETWORKS.</p>
       <ul>
         <li>Gambling machine made for RESONANCE. NETWORKS.</li>
@@ -41,39 +55,39 @@ export const pluginData = {
         <li>Model made by Toheyyy.</li>
       </ul>
     `
-    },
-    'bolsystem': {
-        title: 'BOL System',
-        video: 'assets/video/bolsystem.mp4',
-        poster: 'assets/img/thumbnails_large/bol_system_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'bolsystem': {
+    title: 'BOL System',
+    video: 'assets/video/bolsystem.mp4',
+    poster: 'assets/img/thumbnails_large/bol_system_large.png',
+    category: 'for-sale',
+    description: `
       <p>A complete BOL system for your Half-Life 2 servers.</p>
       <ul>
         <li>BOL system for your Half-Life 2 servers.</li>
         <li>Easy to use and configure.</li>
       </ul>
     `
-    },
-    'crp_weedtent': {
-        title: 'Weed System',
-        video: 'assets/video/crp_weedtent.mp4',
-        poster: 'assets/img/thumbnails_large/weed_system_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'crp_weedtent': {
+    title: 'Weed System',
+    video: 'assets/video/crp_weedtent.mp4',
+    poster: 'assets/img/thumbnails_large/weed_system_large.png',
+    category: 'for-sale',
+    description: `
       <p>A complete weed system with tent and grow system.</p>
       <ul>
         <li>Weed system with tent and grow system.</li>
         <li>Easy to use and configure.</li>
       </ul>
     `
-    },
-    'ranks': {
-        title: 'Ranks System',
-        video: 'assets/video/ranks.mp4',
-        poster: 'assets/img/thumbnails_large/ranks_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'ranks': {
+    title: 'Ranks System',
+    video: 'assets/video/ranks.mp4',
+    poster: 'assets/img/thumbnails_large/ranks_large.png',
+    category: 'for-sale',
+    description: `
       <p>Define ranks for your server and assign them to players.</p>
       <ul>
         <li>Define ranks for your server and assign them to players.</li>
@@ -82,26 +96,26 @@ export const pluginData = {
         <li>Easy to use and configure.</li>
       </ul>
     `
-    },
-    'bags_category': {
-        title: 'Bags Category',
-        video: 'assets/video/bagscategory.mp4',
-        poster: 'assets/img/thumbnails_large/bags_category_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'bags_category': {
+    title: 'Bags Category',
+    video: 'assets/video/bagscategory.mp4',
+    poster: 'assets/img/thumbnails_large/bags_category_large.png',
+    category: 'for-sale',
+    description: `
       <p>Define category for bags to put specific items in them.</p>
       <ul>
         <li>Define category for bags to put specific items in them.</li>
         <li>Easy to use and configure.</li>
       </ul>
     `
-    },
-    'laundry': {
-        title: 'Laundry System',
-        video: 'assets/video/laundry.mp4',
-        poster: 'assets/img/thumbnails_large/laundry_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'laundry': {
+    title: 'Laundry System',
+    video: 'assets/video/laundry.mp4',
+    poster: 'assets/img/thumbnails_large/laundry_large.png',
+    category: 'for-sale',
+    description: `
       <p>A comprehensive clothes laundering system.</p>
       <ul>
         <li>Fully functional clothes laundering mechanics.</li>
@@ -109,13 +123,13 @@ export const pluginData = {
         <li>Dynamically integrated with the Helix outfit system.</li>
       </ul>
     `
-    },
-    'flyer': {
-        title: 'Flyer',
-        video: 'assets/video/flyer.mp4',
-        poster: 'assets/img/thumbnails_large/flyer_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'flyer': {
+    title: 'Flyer',
+    video: 'assets/video/flyer.mp4',
+    poster: 'assets/img/thumbnails_large/flyer_large.png',
+    category: 'for-sale',
+    description: `
       <p>A flyer creation and distribution system.</p>
       <ul>
         <li>Create custom flyers with text and images.</li>
@@ -125,13 +139,13 @@ export const pluginData = {
         <li>Admin management tools.</li>
       </ul>
     `
-    },
-    'advforcefield': {
-        title: 'Advanced Forcefield',
-        video: 'assets/video/advforcefield.mp4',
-        poster: 'assets/img/thumbnails_large/advanced_forcefield_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'advforcefield': {
+    title: 'Advanced Forcefield',
+    video: 'assets/video/advforcefield.mp4',
+    poster: 'assets/img/thumbnails_large/advanced_forcefield_large.png',
+    category: 'for-sale',
+    description: `
       <p>A sophisticated protection system with numerous configuration options.</p>
       <ul>
         <li>Create customizable protection zones.</li>
@@ -140,13 +154,13 @@ export const pluginData = {
         <li>Visual effects and sound customization.</li>
       </ul>
     `
-    },
-    'cooking': {
-        title: 'Cooking System',
-        video: 'assets/video/cooking.mp4',
-        poster: 'assets/img/thumbnails_large/cooking_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'cooking': {
+    title: 'Cooking System',
+    video: 'assets/video/cooking.mp4',
+    poster: 'assets/img/thumbnails_large/cooking_large.png',
+    category: 'for-sale',
+    description: `
       <p>A cooking system that allows creating recipes with various ingredients.</p>
       <ul>
         <li>Cooking system with recipes, stoves, and pots.</li>
@@ -157,13 +171,13 @@ export const pluginData = {
         <li>Burn timer for overcooked food.</li>
       </ul>
     `
-    },
-    'lootbox': {
-        title: 'Lootbox',
-        video: 'assets/video/lootbox.mp4',
-        poster: 'assets/img/thumbnails_large/lootbox_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'lootbox': {
+    title: 'Lootbox',
+    video: 'assets/video/lootbox.mp4',
+    poster: 'assets/img/thumbnails_large/lootbox_large.png',
+    category: 'for-sale',
+    description: `
       <p>A customizable lootbox system with probability-based rewards.</p>
       <ul>
         <li>Lootboxes are auto-generated using tables.</li>
@@ -172,13 +186,13 @@ export const pluginData = {
         <li>Simple but clean UI.</li>
       </ul>
     `
-    },
-    'reshade': {
-        title: 'ReShade',
-        video: 'assets/video/reshade.mp4',
-        poster: 'assets/img/thumbnails_large/reshade_large.png',
-        category: 'private',
-        description: `
+  },
+  'reshade': {
+    title: 'ReShade',
+    video: 'assets/video/reshade.mp4',
+    poster: 'assets/img/thumbnails_large/reshade_large.png',
+    category: 'private',
+    description: `
       <p>An in-game graphics enhancement system with customizable parameters.</p>
       <ul>
         <li>Only in LUA</li>
@@ -186,13 +200,13 @@ export const pluginData = {
         <li>Also include an automatic adaptive lighting.</li>
       </ul>
     `
-    },
-    'tyingoverhaul': {
-        title: 'Tying Overhauled',
-        video: 'assets/video/tyingoverhaul.mp4',
-        poster: 'assets/img/thumbnails_large/tying_overhaul_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'tyingoverhaul': {
+    title: 'Tying Overhauled',
+    video: 'assets/video/tyingoverhaul.mp4',
+    poster: 'assets/img/thumbnails_large/tying_overhaul_large.png',
+    category: 'for-sale',
+    description: `
       <p>An enhanced restraint system with advanced features.</p>
       <ul>
         <li>You can now drag tied player by pressing ALT+R while looking at them.</li>
@@ -201,13 +215,13 @@ export const pluginData = {
         <li>Including commands for admin to manage gag and blindfold.</li>
       </ul>
     `
-    },
-    'resistancelocker': {
-        title: 'Resistance Locker',
-        video: 'assets/video/resistancelocker.mp4',
-        poster: 'assets/img/thumbnails_large/resistance_locker_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'resistancelocker': {
+    title: 'Resistance Locker',
+    video: 'assets/video/resistancelocker.mp4',
+    poster: 'assets/img/thumbnails_large/resistance_locker_large.png',
+    category: 'for-sale',
+    description: `
       <p>A uniform switching system for resistance factions.</p>
       <ul>
         <li>Add a resistance locker to switch uniform when you are in Citizen faction.</li>
@@ -216,13 +230,13 @@ export const pluginData = {
         <li>Timer between each switch to prevent abuse.</li>
       </ul>
     `
-    },
-    'advmedical': {
-        title: 'Advanced Medical System',
-        video: 'assets/video/advmedicalsys.mp4',
-        poster: 'assets/img/thumbnails_large/medical_system_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'advmedical': {
+    title: 'Advanced Medical System',
+    video: 'assets/video/advmedicalsys.mp4',
+    poster: 'assets/img/thumbnails_large/medical_system_large.png',
+    category: 'for-sale',
+    description: `
       <p>A complex medical simulation with injuries and treatments.</p>
       <ul>
         <li>Handle broken bones.</li>
@@ -236,13 +250,13 @@ export const pluginData = {
         <li>Draggable dead corpses.</li>
       </ul>
     `
-    },
-    'wiretaps': {
-        title: 'Wiretap',
-        video: 'assets/video/wiretap.mp4',
-        poster: 'assets/img/thumbnails_large/wiretap_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'wiretaps': {
+    title: 'Wiretap',
+    video: 'assets/video/wiretap.mp4',
+    poster: 'assets/img/thumbnails_large/wiretap_large.png',
+    category: 'for-sale',
+    description: `
       <p>An advanced surveillance system with monitoring capabilities.</p>
       <ul>
         <li>A wiretap receiver.</li>
@@ -255,13 +269,13 @@ export const pluginData = {
         <li>Various configurations available (You can set the wiretap receiver range, the wiretap battery life, ...).</li>
       </ul>
     `
-    },
-    'serial-number': {
-        title: 'Serial Number',
-        video: 'assets/video/serial_number.mp4',
-        poster: 'assets/img/thumbnails_large/serial_number_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'serial-number': {
+    title: 'Serial Number',
+    video: 'assets/video/serial_number.mp4',
+    poster: 'assets/img/thumbnails_large/serial_number_large.png',
+    category: 'for-sale',
+    description: `
       <p>A weapon tracking system with forensic capabilities.</p>
       <ul>
         <li>You can erase serial numbers.</li>
@@ -270,13 +284,13 @@ export const pluginData = {
         <li>Combine can check for fingerprints on weapons to match a certain character.</li>
       </ul>
     `
-    },
-    'npc-menu': {
-        title: 'NPC Drop Config',
-        video: 'assets/video/npc_drop_config_menu.mp4',
-        poster: 'assets/img/thumbnails_large/npc_drop_config_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'npc-menu': {
+    title: 'NPC Drop Config',
+    video: 'assets/video/npc_drop_config_menu.mp4',
+    poster: 'assets/img/thumbnails_large/npc_drop_config_large.png',
+    category: 'for-sale',
+    description: `
       <p>An in-game interface for configuring NPC loot drops.</p>
       <ul>
         <li>You can add various items to the same NPC.</li>
@@ -286,13 +300,13 @@ export const pluginData = {
         <li>No more needs to edit code to make NPCs drop items.</li>
       </ul>
     `
-    },
-    'gathering': {
-        title: 'Gathering System',
-        video: 'assets/video/woodrock_mining.mp4',
-        poster: 'assets/img/thumbnails_large/gathering_system_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'gathering': {
+    title: 'Gathering System',
+    video: 'assets/video/woodrock_mining.mp4',
+    poster: 'assets/img/thumbnails_large/gathering_system_large.png',
+    category: 'for-sale',
+    description: `
       <p>A resource collection system with respawning nodes.</p>
       <ul>
         <li>In-game configuration.</li>
@@ -300,39 +314,39 @@ export const pluginData = {
         <li>Easy file configuration.</li>
       </ul>
     `
-    },
-    'medal-system': {
-        title: 'Medal System',
-        video: 'assets/video/medal_system.mp4',
-        poster: 'assets/img/thumbnails_large/medal_system_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'medal-system': {
+    title: 'Medal System',
+    video: 'assets/video/medal_system.mp4',
+    poster: 'assets/img/thumbnails_large/medal_system_large.png',
+    category: 'for-sale',
+    description: `
       <p>An achievement and recognition system with visual badges.</p>
       <ul>
         <li>Simple medal system that shows up in player tooltip with a management menu for staff/faction/class</li>
         <li>Easy to add/remove medals with multiple parameters such as the image path, height, width, name, description...</li>
       </ul>
     `
-    },
-    'doorclass': {
-        title: 'Door Class Group',
-        video: 'assets/video/doorclassgroup.mp4',
-        poster: 'assets/img/thumbnails_large/door_class_group_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'doorclass': {
+    title: 'Door Class Group',
+    video: 'assets/video/doorclassgroup.mp4',
+    poster: 'assets/img/thumbnails_large/door_class_group_large.png',
+    category: 'for-sale',
+    description: `
       <p>An advanced door access control system based on class groups.</p>
       <ul>
         <li>Door group class system.</li>
         <li>Multiple classes for multiple factions can access a door by defining a group to it.</li>
       </ul>
     `
-    },
-    'airdrop': {
-        title: 'Airdrop',
-        video: 'assets/video/airdrop.mp4',
-        poster: 'assets/img/thumbnails_large/airdrop_large.png',
-        category: 'for-sale',
-        description: `
+  },
+  'airdrop': {
+    title: 'Airdrop',
+    video: 'assets/video/airdrop.mp4',
+    poster: 'assets/img/thumbnails_large/airdrop_large.png',
+    category: 'for-sale',
+    description: `
       <p>A scheduled supply drop system at designated locations.</p>
       <ul>
         <li>You can set airdrops to a certain location, and the players will drop items when they reach the location.</li>
@@ -341,13 +355,13 @@ export const pluginData = {
         <li>Customizable loot tables.</li>
       </ul>
     `
-    },
-    'cinematic-menu': {
-        title: 'Cinematic Menu',
-        video: 'assets/video/cinematic_menu.mp4',
-        poster: 'assets/img/thumbnails_large/cinematic_menu_large.png',
-        category: 'public',
-        description: `
+  },
+  'cinematic-menu': {
+    title: 'Cinematic Menu',
+    video: 'assets/video/cinematic_menu.mp4',
+    poster: 'assets/img/thumbnails_large/cinematic_menu_large.png',
+    category: 'public',
+    description: `
       <p>An interface for creating immersive cinematics in-game.</p>
       <ul>
         <li>Ported this plugin from NS by TovarischPootis.</li>
@@ -356,13 +370,13 @@ export const pluginData = {
         <li>Admin control for server-wide cinematics.</li>
       </ul>
     `
-    },
-    'slot-machine': {
-        title: 'Slot Machine',
-        video: 'assets/video/slot_machine.mp4',
-        poster: 'assets/img/thumbnails_large/slot_machine_large.png',
-        category: 'public',
-        description: `
+  },
+  'slot-machine': {
+    title: 'Slot Machine',
+    video: 'assets/video/slot_machine.mp4',
+    poster: 'assets/img/thumbnails_large/slot_machine_large.png',
+    category: 'public',
+    description: `
       <p>A fully functional gambling machine with customizable odds.</p>
       <ul>
         <li>Add slot machine to Helix with full customization of the machine directly in-game.</li>
@@ -370,13 +384,13 @@ export const pluginData = {
         <li>Credits for the base addon: [myb] flapjack (STEAM_0:0:37238513).</li>
       </ul>
     `
-    },
-    'broken-glass': {
-        title: 'Broken Glass',
-        video: 'assets/video/broken_glass.mp4',
-        poster: 'assets/img/thumbnails_large/broken_glass_large.png',
-        category: 'public',
-        description: `
+  },
+  'broken-glass': {
+    title: 'Broken Glass',
+    video: 'assets/video/broken_glass.mp4',
+    poster: 'assets/img/thumbnails_large/broken_glass_large.png',
+    category: 'public',
+    description: `
       <p>An environmental enhancement for City 8: Definitive Edition.</p>
       <ul>
         <li>Add a command to remove broken glass on the ground.</li>
@@ -384,216 +398,224 @@ export const pluginData = {
         <li>Only available for this map: <strong>City 8: Definitive Edition</strong></li>
       </ul>
     `
-    }
+  }
 };
 
 export const plugins = [
-    {
-        id: 'guild_system',
-        title: 'Guild System',
-        description: 'A complete guild system for your servers and players.',
-        thumbnail: 'assets/img/thumbnails/guild_system.png',
-        video: 'assets/video/guildsystem.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'gambling_machine',
-        title: 'Gambling Machine',
-        description: 'A complete gambling machine made for RESONANCE. NETWORKS.',
-        thumbnail: 'assets/img/thumbnails/gambling_machine.png',
-        video: 'assets/video/gambling_machine_resonance.mp4',
-        category: 'private'
-    },
-    {
-        id: 'bolsystem',
-        title: 'BOL System',
-        description: 'A complete BOL system for your Half-Life 2 servers.',
-        thumbnail: 'assets/img/thumbnails/bol_system.png',
-        video: 'assets/video/bolsystem.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'crp_weedtent',
-        title: 'Weed System',
-        description: 'A complete weed system with tent and grow system.',
-        thumbnail: 'assets/img/thumbnails/weed_system.png',
-        video: 'assets/video/crp_weedtent.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'ranks',
-        title: 'Ranks System',
-        description: 'Define ranks for your server and assign them to players.',
-        thumbnail: 'assets/img/thumbnails/ranks.png',
-        video: 'assets/video/ranks.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'discord_integration',
-        title: 'Discord Integration',
-        description: 'Integrate your server with Discord, with OOC between Discord and the server and more.',
-        thumbnail: 'assets/img/thumbnails/discord_integration.png',
-        video: 'assets/video/oocdiscord_logsreqwest.mp4',
-        category: 'private'
-    },
-    {
-        id: 'bags_category',
-        title: 'Bags Category',
-        description: 'Define category for bags to put specific items in them.',
-        thumbnail: 'assets/img/thumbnails/bags_category.png',
-        video: 'assets/video/bagscategory.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'laundry',
-        title: 'Laundry System',
-        description: 'A comprehensive system for laundering clothes.',
-        thumbnail: 'assets/img/thumbnails/laundry.png',
-        video: 'assets/video/laundry.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'flyer',
-        title: 'Flyer',
-        description: 'Create and distribute custom flyers in-game for your servers.',
-        thumbnail: 'assets/img/thumbnails/flyer.png',
-        video: 'assets/video/flyer.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'advforcefield',
-        title: 'Advanced Forcefield',
-        description: 'Sophisticated forcefield system with customizable parameters.',
-        thumbnail: 'assets/img/thumbnails/advanced_forcefield.png',
-        video: 'assets/video/advforcefield.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'cooking',
-        title: 'Cooking System',
-        description: 'Create and cook recipes with custom ingredients.',
-        thumbnail: 'assets/img/thumbnails/cooking.png',
-        video: 'assets/video/cooking.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'lootbox',
-        title: 'Lootbox',
-        description: 'Customizable lootbox system with probability-based rewards.',
-        thumbnail: 'assets/img/thumbnails/lootbox.png',
-        video: 'assets/video/lootbox.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'reshade',
-        title: 'ReShade',
-        description: 'In-game graphics enhancement with customizable parameters.',
-        thumbnail: 'assets/img/thumbnails/reshade.png',
-        video: 'assets/video/reshade.mp4',
-        category: 'private'
-    },
-    {
-        id: 'tyingoverhaul',
-        title: 'Tying Overhauled',
-        description: 'Enhanced restraint system with advanced features.',
-        thumbnail: 'assets/img/thumbnails/tying_overhaul.png',
-        video: 'assets/video/tyingoverhaul.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'resistancelocker',
-        title: 'Resistance Locker',
-        description: 'Uniform switching system for resistance factions.',
-        thumbnail: 'assets/img/thumbnails/resistance_locker.png',
-        video: 'assets/video/resistancelocker.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'advmedical',
-        title: 'Medical System',
-        description: 'Complex medical simulation with injuries and treatments.',
-        thumbnail: 'assets/img/thumbnails/medical_system.png',
-        video: 'assets/video/advmedicalsys.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'wiretaps',
-        title: 'Wiretap',
-        description: 'Advanced surveillance system with monitoring capabilities.',
-        thumbnail: 'assets/img/thumbnails/wiretap.png',
-        video: 'assets/video/wiretap.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'serial-number',
-        title: 'Serial Number',
-        description: 'Weapon tracking system with forensic capabilities.',
-        thumbnail: 'assets/img/thumbnails/serial_number.png',
-        video: 'assets/video/serial_number.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'npc-menu',
-        title: 'NPC Drop Config Menu',
-        description: 'In-game interface for configuring NPC loot drops.',
-        thumbnail: 'assets/img/thumbnails/npc_drop_config.png',
-        video: 'assets/video/npc_drop_config_menu.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'gathering',
-        title: 'Gathering',
-        description: 'Resource collection system with respawning nodes.',
-        thumbnail: 'assets/img/thumbnails/gathering_system.png',
-        video: 'assets/video/woodrock_mining.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'medal-system',
-        title: 'Medal System',
-        description: 'Achievement and recognition system with visual badges.',
-        thumbnail: 'assets/img/thumbnails/medal_system.png',
-        video: 'assets/video/medal_system.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'doorclass',
-        title: 'Door Class Group',
-        description: 'Advanced door access control based on class groups.',
-        thumbnail: 'assets/img/thumbnails/door_class_group.png',
-        video: 'assets/video/doorclassgroup.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'airdrop',
-        title: 'Airdrop',
-        description: 'Scheduled supply drops at designated locations.',
-        thumbnail: 'assets/img/thumbnails/airdrop.png',
-        video: 'assets/video/airdrop.mp4',
-        category: 'for-sale'
-    },
-    {
-        id: 'cinematic-menu',
-        title: 'Cinematic Menu',
-        description: 'Interface for creating immersive cinematics for your servers.',
-        thumbnail: 'assets/img/thumbnails/cinematic_menu.png',
-        video: 'assets/video/cinematic_menu.mp4',
-        category: 'public'
-    },
-    {
-        id: 'slot-machine',
-        title: 'Slot Machine',
-        description: 'Fully functional gambling machine with customizable odds.',
-        thumbnail: 'assets/img/thumbnails/slot_machine.png',
-        video: 'assets/video/slot_machine.mp4',
-        category: 'public'
-    },
-    {
-        id: 'broken-glass',
-        title: 'Broken Glass',
-        description: 'Environmental enhancement for City 8: Definitive Edition.',
-        thumbnail: 'assets/img/thumbnails/broken_glass.png',
-        video: 'assets/video/broken_glass.mp4',
-        category: 'public'
-    }
+  {
+    id: 'raid_system',
+    title: 'Raid System',
+    description: 'A complete raid system for your servers and players.',
+    thumbnail: 'assets/img/thumbnails/raid_system.png',
+    video: 'assets/video/raid_system.mp4',
+    category: 'private'
+  },
+  {
+    id: 'guild_system',
+    title: 'Guild System',
+    description: 'A complete guild system for your servers and players.',
+    thumbnail: 'assets/img/thumbnails/guild_system.png',
+    video: 'assets/video/guildsystem.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'gambling_machine',
+    title: 'Gambling Machine',
+    description: 'A complete gambling machine made for RESONANCE. NETWORKS.',
+    thumbnail: 'assets/img/thumbnails/gambling_machine.png',
+    video: 'assets/video/gambling_machine_resonance.mp4',
+    category: 'private'
+  },
+  {
+    id: 'bolsystem',
+    title: 'BOL System',
+    description: 'A complete BOL system for your Half-Life 2 servers.',
+    thumbnail: 'assets/img/thumbnails/bol_system.png',
+    video: 'assets/video/bolsystem.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'crp_weedtent',
+    title: 'Weed System',
+    description: 'A complete weed system with tent and grow system.',
+    thumbnail: 'assets/img/thumbnails/weed_system.png',
+    video: 'assets/video/crp_weedtent.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'ranks',
+    title: 'Ranks System',
+    description: 'Define ranks for your server and assign them to players.',
+    thumbnail: 'assets/img/thumbnails/ranks.png',
+    video: 'assets/video/ranks.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'discord_integration',
+    title: 'Discord Integration',
+    description: 'Integrate your server with Discord, with OOC between Discord and the server and more.',
+    thumbnail: 'assets/img/thumbnails/discord_integration.png',
+    video: 'assets/video/oocdiscord_logsreqwest.mp4',
+    category: 'private'
+  },
+  {
+    id: 'bags_category',
+    title: 'Bags Category',
+    description: 'Define category for bags to put specific items in them.',
+    thumbnail: 'assets/img/thumbnails/bags_category.png',
+    video: 'assets/video/bagscategory.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'laundry',
+    title: 'Laundry System',
+    description: 'A comprehensive system for laundering clothes.',
+    thumbnail: 'assets/img/thumbnails/laundry.png',
+    video: 'assets/video/laundry.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'flyer',
+    title: 'Flyer',
+    description: 'Create and distribute custom flyers in-game for your servers.',
+    thumbnail: 'assets/img/thumbnails/flyer.png',
+    video: 'assets/video/flyer.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'advforcefield',
+    title: 'Advanced Forcefield',
+    description: 'Sophisticated forcefield system with customizable parameters.',
+    thumbnail: 'assets/img/thumbnails/advanced_forcefield.png',
+    video: 'assets/video/advforcefield.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'cooking',
+    title: 'Cooking System',
+    description: 'Create and cook recipes with custom ingredients.',
+    thumbnail: 'assets/img/thumbnails/cooking.png',
+    video: 'assets/video/cooking.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'lootbox',
+    title: 'Lootbox',
+    description: 'Customizable lootbox system with probability-based rewards.',
+    thumbnail: 'assets/img/thumbnails/lootbox.png',
+    video: 'assets/video/lootbox.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'reshade',
+    title: 'ReShade',
+    description: 'In-game graphics enhancement with customizable parameters.',
+    thumbnail: 'assets/img/thumbnails/reshade.png',
+    video: 'assets/video/reshade.mp4',
+    category: 'private'
+  },
+  {
+    id: 'tyingoverhaul',
+    title: 'Tying Overhauled',
+    description: 'Enhanced restraint system with advanced features.',
+    thumbnail: 'assets/img/thumbnails/tying_overhaul.png',
+    video: 'assets/video/tyingoverhaul.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'resistancelocker',
+    title: 'Resistance Locker',
+    description: 'Uniform switching system for resistance factions.',
+    thumbnail: 'assets/img/thumbnails/resistance_locker.png',
+    video: 'assets/video/resistancelocker.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'advmedical',
+    title: 'Medical System',
+    description: 'Complex medical simulation with injuries and treatments.',
+    thumbnail: 'assets/img/thumbnails/medical_system.png',
+    video: 'assets/video/advmedicalsys.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'wiretaps',
+    title: 'Wiretap',
+    description: 'Advanced surveillance system with monitoring capabilities.',
+    thumbnail: 'assets/img/thumbnails/wiretap.png',
+    video: 'assets/video/wiretap.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'serial-number',
+    title: 'Serial Number',
+    description: 'Weapon tracking system with forensic capabilities.',
+    thumbnail: 'assets/img/thumbnails/serial_number.png',
+    video: 'assets/video/serial_number.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'npc-menu',
+    title: 'NPC Drop Config Menu',
+    description: 'In-game interface for configuring NPC loot drops.',
+    thumbnail: 'assets/img/thumbnails/npc_drop_config.png',
+    video: 'assets/video/npc_drop_config_menu.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'gathering',
+    title: 'Gathering',
+    description: 'Resource collection system with respawning nodes.',
+    thumbnail: 'assets/img/thumbnails/gathering_system.png',
+    video: 'assets/video/woodrock_mining.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'medal-system',
+    title: 'Medal System',
+    description: 'Achievement and recognition system with visual badges.',
+    thumbnail: 'assets/img/thumbnails/medal_system.png',
+    video: 'assets/video/medal_system.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'doorclass',
+    title: 'Door Class Group',
+    description: 'Advanced door access control based on class groups.',
+    thumbnail: 'assets/img/thumbnails/door_class_group.png',
+    video: 'assets/video/doorclassgroup.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'airdrop',
+    title: 'Airdrop',
+    description: 'Scheduled supply drops at designated locations.',
+    thumbnail: 'assets/img/thumbnails/airdrop.png',
+    video: 'assets/video/airdrop.mp4',
+    category: 'for-sale'
+  },
+  {
+    id: 'cinematic-menu',
+    title: 'Cinematic Menu',
+    description: 'Interface for creating immersive cinematics for your servers.',
+    thumbnail: 'assets/img/thumbnails/cinematic_menu.png',
+    video: 'assets/video/cinematic_menu.mp4',
+    category: 'public'
+  },
+  {
+    id: 'slot-machine',
+    title: 'Slot Machine',
+    description: 'Fully functional gambling machine with customizable odds.',
+    thumbnail: 'assets/img/thumbnails/slot_machine.png',
+    video: 'assets/video/slot_machine.mp4',
+    category: 'public'
+  },
+  {
+    id: 'broken-glass',
+    title: 'Broken Glass',
+    description: 'Environmental enhancement for City 8: Definitive Edition.',
+    thumbnail: 'assets/img/thumbnails/broken_glass.png',
+    video: 'assets/video/broken_glass.mp4',
+    category: 'public'
+  }
 ];
