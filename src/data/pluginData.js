@@ -1,7 +1,7 @@
 export const pluginData = {
   'raid_system': {
     title: 'Raid System',
-    video: 'assets/video/raid_system.mp4',
+    video: 'assets/video/raidsystem.mp4',
     poster: 'assets/img/thumbnails_large/raid_system_large.png',
     category: 'private',
     description: `
@@ -407,7 +407,7 @@ export const plugins = [
     title: 'Raid System',
     description: 'A complete raid system for your servers and players.',
     thumbnail: 'assets/img/thumbnails/raid_system.png',
-    video: 'assets/video/raid_system.mp4',
+    video: 'assets/video/raidsystem.mp4',
     category: 'private'
   },
   {
