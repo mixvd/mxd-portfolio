@@ -590,8 +590,8 @@ export const plugins = [
     id: 'airdrop',
     title: 'Airdrop',
     description: 'Scheduled supply drops at designated locations.',
-    thumbnail: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743342068011100/airdrop.mp4?ex=68ddc87e&is=68dc76fe&hm=280ffe0f773b752115d9d4255bb47edb7f19af720a5219fb8930ba3bd4f43879&',
-    video: 'assets/video/airdrop.mp4',
+    thumbnail: 'assets/img/thumbnails/airdrop.png',
+    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743342068011100/airdrop.mp4?ex=68ddc87e&is=68dc76fe&hm=280ffe0f773b752115d9d4255bb47edb7f19af720a5219fb8930ba3bd4f43879&',
     category: 'for-sale'
   },
   {
