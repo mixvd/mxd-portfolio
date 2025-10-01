@@ -173,7 +173,7 @@ video {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: white;
     margin-bottom: 20px;
     position: relative;
     text-shadow: var(--glow);
