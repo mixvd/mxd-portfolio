@@ -4,6 +4,8 @@ const LoadingScreen = () => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
+    document.body.classList.add('dark-mode');
+    
     const interval = setInterval(() => {
       setProgress(prev => {
         const increment = Math.random() * 15;
