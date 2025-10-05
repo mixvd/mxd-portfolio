@@ -3,9 +3,18 @@
 Welcome to my portfolio! Here you'll find a collection of my projects, skills, and experiences. Feel free to explore and reach out if you have any questions or opportunities.
 
 ## 🛡️ Table of Contents
+- [Tech Stack](#tech-stack)
 - [Features](#features)
 - [About Me](#about-me)
 - [Contact](#contact)
+
+## 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/-React-61DBFB?logo=react&logoColor=black&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7E017?logo=javascript&logoColor=black&style=for-the-badge)
+![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-181717?logo=github&logoColor=white&style=for-the-badge)
 
 ## ✨ Features
 
