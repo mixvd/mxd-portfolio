@@ -1,7 +1,7 @@
 export const pluginData = {
   'raid_system': {
     title: 'Raid System',
-    video: 'https://cdn.discordapp.com/attachments/567765409252638913/1326191470348210248/2025-01-07_15-06-06.mp4?ex=68dd368d&is=68dbe50d&hm=a7c67621bc03aabc0cc82b319022aaf97d53df475498e71ea45c2d7941ed4379&',
+    video: 'https://project-resonance.fr/video/raidsystem.mp4',
     poster: 'assets/img/thumbnails_large/raid_system_large.png',
     category: 'private',
     description: `
@@ -15,7 +15,7 @@ export const pluginData = {
   },
   'discord_integration': {
     title: 'Discord Integration',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743546443862147/oocdiscord_logsreqwest.mp4?ex=68ddc8ae&is=68dc772e&hm=4ac407d6f039b041a207ea7415af97cf2f8725f58fe837f2375922f8a6a04a06&',
+    video: 'https://project-resonance.fr/video/oocdiscord_logsreqwest.mp4',
     poster: 'assets/img/thumbnails_large/discord_integration_large.png',
     category: 'private',
     description: `
@@ -30,7 +30,7 @@ export const pluginData = {
   },
   'guild_system': {
     title: 'Guild System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743454706044998/guildsystem.mp4?ex=68ddc898&is=68dc7718&hm=c9ba412ccbf381e276ec1d9ee0e8cf3f41cb3df8ad193c51a449c311fd9aaded&',
+    video: 'https://project-resonance.fr/video/guildsystem.mp4',
     poster: 'assets/img/thumbnails_large/guild_system_large.png',
     category: 'for-sale',
     description: `
@@ -44,7 +44,7 @@ export const pluginData = {
   },
   'gambling_machine': {
     title: 'Gambling Machine',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743451354533898/gambling_machine_resonance.mp4?ex=68ddc898&is=68dc7718&hm=9cedbc2209cc7515754872dfc1c0ca45d44950bc5ca06be8dfa87fef224af4ad&',
+    video: 'https://project-resonance.fr/video/gambling_machine_resonance.mp4',
     poster: 'assets/img/thumbnails_large/gambling_machine_large.png',
     category: 'private',
     description: `
@@ -58,7 +58,7 @@ export const pluginData = {
   },
   'bolsystem': {
     title: 'BOL System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743346140549221/bolsystem.mp4?ex=68ddc87f&is=68dc76ff&hm=f289559f7ea5ac520238356b59334505578194583a3f9b02d71692bcacd4dcd5&',
+    video: 'https://project-resonance.fr/video/bolsystem.mp4',
     poster: 'assets/img/thumbnails_large/bol_system_large.png',
     category: 'for-sale',
     description: `
@@ -71,7 +71,7 @@ export const pluginData = {
   },
   'crp_weedtent': {
     title: 'Weed System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743441753767997/crp_weedtent.mp4?ex=68ddc895&is=68dc7715&hm=8ea50be9e1e4c73478fecb5bae7f640528b1c77035a1551f4ecc07abe563d83f&',
+    video: 'https://project-resonance.fr/video/crp_weedtent.mp4',
     poster: 'assets/img/thumbnails_large/weed_system_large.png',
     category: 'for-sale',
     description: `
@@ -84,7 +84,7 @@ export const pluginData = {
   },
   'ranks': {
     title: 'Ranks System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743549174218893/ranks.mp4?ex=68ddc8af&is=68dc772f&hm=78c73635a91c78752248bd17fdeb11a4a101a9859c9eac24e9f26dff2fa630e2&',
+    video: 'https://project-resonance.fr/video/ranks.mp4',
     poster: 'assets/img/thumbnails_large/ranks_large.png',
     category: 'for-sale',
     description: `
@@ -99,7 +99,7 @@ export const pluginData = {
   },
   'bags_category': {
     title: 'Bags Category',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743343930281994/bagscategory.mp4?ex=68ddc87e&is=68dc76fe&hm=2e65fd1e73758b21e99a0008abfb47482240a9cd8f640ce7e45a0fae40a6d140&',
+    video: 'https://project-resonance.fr/video/bagscategory.mp4',
     poster: 'assets/img/thumbnails_large/bags_category_large.png',
     category: 'for-sale',
     description: `
@@ -112,7 +112,7 @@ export const pluginData = {
   },
   'laundry': {
     title: 'Laundry System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743458921320469/laundry.mp4?ex=68ddc899&is=68dc7719&hm=aa075820f51dcb2c79e3c60cafb73b8ba6c841432bf9d4861e5415979470c69d&',
+    video: 'https://project-resonance.fr/video/laundry.mp4',
     poster: 'assets/img/thumbnails_large/laundry_large.png',
     category: 'for-sale',
     description: `
@@ -126,7 +126,7 @@ export const pluginData = {
   },
   'flyer': {
     title: 'Flyer',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743448544608439/flyer.mp4?ex=68ddc897&is=68dc7717&hm=e61c99afec11bedf908e6175c49e086553053c2989db7dfb4c5383893a587fc4&',
+    video: 'https://project-resonance.fr/video/flyer.mp4',
     poster: 'assets/img/thumbnails_large/flyer_large.png',
     category: 'for-sale',
     description: `
@@ -142,7 +142,7 @@ export const pluginData = {
   },
   'advforcefield': {
     title: 'Advanced Forcefield',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743335822557286/advforcefield.mp4?ex=68ddc87c&is=68dc76fc&hm=8145b468d4e9e4d5c8929686ee8dbedf2d7548310f40a36b187ea07da0a528bd&',
+    video: 'https://project-resonance.fr/video/advforcefield.mp4',
     poster: 'assets/img/thumbnails_large/advanced_forcefield_large.png',
     category: 'for-sale',
     description: `
@@ -157,7 +157,7 @@ export const pluginData = {
   },
   'cooking': {
     title: 'Cooking System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743435667968040/cooking.mp4?ex=68ddc894&is=68dc7714&hm=97bc1211af1867e9fb53a81b109a7d1b02ee5cdcf27a64d6794f9468582a2949&',
+    video: 'https://project-resonance.fr/video/cooking.mp4',
     poster: 'assets/img/thumbnails_large/cooking_large.png',
     category: 'for-sale',
     description: `
@@ -174,7 +174,7 @@ export const pluginData = {
   },
   'lootbox': {
     title: 'Lootbox',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743462390005821/lootbox.mp4?ex=68ddc89a&is=68dc771a&hm=f78996b42b56d10b2232cc1d3dccfbefe8ab154f94cd8904d1da73b299769a74&',
+    video: 'https://project-resonance.fr/video/lootbox.mp4',
     poster: 'assets/img/thumbnails_large/lootbox_large.png',
     category: 'for-sale',
     description: `
@@ -189,7 +189,7 @@ export const pluginData = {
   },
   'reshade': {
     title: 'ReShade',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743552093327400/reshade.mp4?ex=68ddc8b0&is=68dc7730&hm=a1de64d1903d3e28eafb2a3eeb871e7fc1887cc7b44168bf47c0de49d02d9911&',
+    video: 'https://project-resonance.fr/video/reshade.mp4',
     poster: 'assets/img/thumbnails_large/reshade_large.png',
     category: 'private',
     description: `
@@ -203,7 +203,7 @@ export const pluginData = {
   },
   'tyingoverhaul': {
     title: 'Tying Overhauled',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743621131829269/tyingoverhaul.mp4?ex=68ddc8c0&is=68dc7740&hm=1c031f4bf715f6140b66b140dfef94d64ff860ee06df9e7fea1b88fd6b9c4f3e&',
+    video: 'https://project-resonance.fr/video/tyingoverhaul.mp4',
     poster: 'assets/img/thumbnails_large/tying_overhaul_large.png',
     category: 'for-sale',
     description: `
@@ -218,7 +218,7 @@ export const pluginData = {
   },
   'resistancelocker': {
     title: 'Resistance Locker',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743556602200074/resistancelocker.mp4?ex=68ddc8b1&is=68dc7731&hm=98e5320f069a326bef83f87936d17881d8cef62f8c8ce3a11af5b0a9c3621b2b&',
+    video: 'https://project-resonance.fr/video/resistancelocker.mp4',
     poster: 'assets/img/thumbnails_large/resistance_locker_large.png',
     category: 'for-sale',
     description: `
@@ -233,7 +233,7 @@ export const pluginData = {
   },
   'advmedical': {
     title: 'Advanced Medical System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743338955571321/advmedicalsys.mp4?ex=68ddc87d&is=68dc76fd&hm=901a98d3a11d3effe49c524606df211218e22b45fe88529bc07209d789b4a64e&',
+    video: 'https://project-resonance.fr/video/advmedicalsys.mp4',
     poster: 'assets/img/thumbnails_large/medical_system_large.png',
     category: 'for-sale',
     description: `
@@ -253,7 +253,7 @@ export const pluginData = {
   },
   'wiretaps': {
     title: 'Wiretap',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743624726347838/wiretap.mp4?ex=68ddc8c1&is=68dc7741&hm=52bada9eb455d08e8afa1cadf44f4eeefd8f51931609589c5122158636960bce&',
+    video: 'https://project-resonance.fr/video/wiretap.mp4',
     poster: 'assets/img/thumbnails_large/wiretap_large.png',
     category: 'for-sale',
     description: `
@@ -272,7 +272,7 @@ export const pluginData = {
   },
   'serial-number': {
     title: 'Serial Number',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743614903287918/serial_number.mp4?ex=68ddc8bf&is=68dc773f&hm=5ca90d3be43ab34eec9f1db4d518a8a01b00ceab459efe5f74830863684452bd&',
+    video: 'https://project-resonance.fr/video/serial_number.mp4',
     poster: 'assets/img/thumbnails_large/serial_number_large.png',
     category: 'for-sale',
     description: `
@@ -287,7 +287,7 @@ export const pluginData = {
   },
   'npc-menu': {
     title: 'NPC Drop Config',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743543218442381/npc_drop_config_menu.mp4?ex=68ddc8ae&is=68dc772e&hm=2ca17d235fe334f90e96d8fba3322ca65f7bc0e736b2d8605631b83a2b146200&',
+    video: 'https://project-resonance.fr/video/npc_drop_config_menu.mp4',
     poster: 'assets/img/thumbnails_large/npc_drop_config_large.png',
     category: 'for-sale',
     description: `
@@ -303,7 +303,7 @@ export const pluginData = {
   },
   'gathering': {
     title: 'Gathering System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743627972743318/woodrock_mining.mp4?ex=68ddc8c2&is=68dc7742&hm=45bd791bdfbb60ae10904cb7c3181a77e32daf2dd4d37d1e33cfb9b7abab94cf&',
+    video: 'https://project-resonance.fr/video/woodrock_mining.mp4',
     poster: 'assets/img/thumbnails_large/gathering_system_large.png',
     category: 'for-sale',
     description: `
@@ -317,7 +317,7 @@ export const pluginData = {
   },
   'medal-system': {
     title: 'Medal System',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743540290551879/medal_system.mp4?ex=68ddc8ad&is=68dc772d&hm=d821a9551947ac8380510b5d8cd6a17afb217f0a9f948139357244bb9dac3e75&',
+    video: 'https://project-resonance.fr/video/medal_system.mp4',
     poster: 'assets/img/thumbnails_large/medal_system_large.png',
     category: 'for-sale',
     description: `
@@ -330,7 +330,7 @@ export const pluginData = {
   },
   'doorclass': {
     title: 'Door Class Group',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743444983644290/doorclassgroup.mp4?ex=68ddc896&is=68dc7716&hm=86369fee3d74ab88b8c995edf03575958bc56d71eb4f33876e0c22bf0be29e10&',
+    video: 'https://project-resonance.fr/video/doorclassgroup.mp4',
     poster: 'assets/img/thumbnails_large/door_class_group_large.png',
     category: 'for-sale',
     description: `
@@ -343,7 +343,7 @@ export const pluginData = {
   },
   'airdrop': {
     title: 'Airdrop',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743342068011100/airdrop.mp4?ex=68ddc87e&is=68dc76fe&hm=280ffe0f773b752115d9d4255bb47edb7f19af720a5219fb8930ba3bd4f43879&',
+    video: 'https://project-resonance.fr/video/airdrop.mp4',
     poster: 'assets/img/thumbnails_large/airdrop_large.png',
     category: 'for-sale',
     description: `
@@ -358,7 +358,7 @@ export const pluginData = {
   },
   'cinematic-menu': {
     title: 'Cinematic Menu',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743352188604537/cinematic_menu.mp4?ex=68ddc880&is=68dc7700&hm=e4c43c9c813e83a97b83a62565a9948ab73a9c689f15ed1d5b91b61be8902433&',
+    video: 'https://project-resonance.fr/video/cinematic_menu.mp4',
     poster: 'assets/img/thumbnails_large/cinematic_menu_large.png',
     category: 'public',
     description: `
@@ -373,7 +373,7 @@ export const pluginData = {
   },
   'slot-machine': {
     title: 'Slot Machine',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743618191622154/slot_machine.mp4?ex=68ddc8bf&is=68dc773f&hm=d0272ef172f8efb80bca363bac8756fb10ccff40f2a30366a2958ccc93300132&',
+    video: 'https://project-resonance.fr/video/slot_machine.mp4',
     poster: 'assets/img/thumbnails_large/slot_machine_large.png',
     category: 'public',
     description: `
@@ -387,7 +387,7 @@ export const pluginData = {
   },
   'broken-glass': {
     title: 'Broken Glass',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743350062350386/broken_glass.mp4?ex=68ddc87f&is=68dc76ff&hm=a044974a2284fc39cf1748a2c2453ff46b7273a66483600c198d5f2072957dc4&',
+    video: 'https://project-resonance.fr/video/broken_glass.mp4',
     poster: 'assets/img/thumbnails_large/broken_glass_large.png',
     category: 'public',
     description: `
@@ -407,7 +407,7 @@ export const plugins = [
     title: 'Raid System',
     description: 'A complete raid system for your servers and players.',
     thumbnail: 'assets/img/thumbnails/raid_system.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743548238757999/raidsystem.mp4?ex=68ddc8af&is=68dc772f&hm=021293d2bf75376114630df218601728341f2fe4d732370c30f170536f070349&',
+    video: 'https://project-resonance.fr/video/raidsystem.mp4',
     category: 'private'
   },
   {
@@ -415,7 +415,7 @@ export const plugins = [
     title: 'Guild System',
     description: 'A complete guild system for your servers and players.',
     thumbnail: 'assets/img/thumbnails/guild_system.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743454706044998/guildsystem.mp4?ex=68ddc898&is=68dc7718&hm=c9ba412ccbf381e276ec1d9ee0e8cf3f41cb3df8ad193c51a449c311fd9aaded&',
+    video: 'https://project-resonance.fr/video/guildsystem.mp4',
     category: 'for-sale'
   },
   {
@@ -423,7 +423,7 @@ export const plugins = [
     title: 'Gambling Machine',
     description: 'A complete gambling machine made for RESONANCE. NETWORKS.',
     thumbnail: 'assets/img/thumbnails/gambling_machine.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743451354533898/gambling_machine_resonance.mp4?ex=68ddc898&is=68dc7718&hm=9cedbc2209cc7515754872dfc1c0ca45d44950bc5ca06be8dfa87fef224af4ad&',
+    video: 'https://project-resonance.fr/video/gambling_machine_resonance.mp4',
     category: 'private'
   },
   {
@@ -431,7 +431,7 @@ export const plugins = [
     title: 'BOL System',
     description: 'A complete BOL system for your Half-Life 2 servers.',
     thumbnail: 'assets/img/thumbnails/bol_system.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743346140549221/bolsystem.mp4?ex=68ddc87f&is=68dc76ff&hm=f289559f7ea5ac520238356b59334505578194583a3f9b02d71692bcacd4dcd5&',
+    video: 'https://project-resonance.fr/video/bolsystem.mp4',
     category: 'for-sale'
   },
   {
@@ -439,7 +439,7 @@ export const plugins = [
     title: 'Weed System',
     description: 'A complete weed system with tent and grow system.',
     thumbnail: 'assets/img/thumbnails/weed_system.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743441753767997/crp_weedtent.mp4?ex=68ddc895&is=68dc7715&hm=8ea50be9e1e4c73478fecb5bae7f640528b1c77035a1551f4ecc07abe563d83f&',
+    video: 'https://project-resonance.fr/video/crp_weedtent.mp4',
     category: 'for-sale'
   },
   {
@@ -447,7 +447,7 @@ export const plugins = [
     title: 'Ranks System',
     description: 'Define ranks for your server and assign them to players.',
     thumbnail: 'assets/img/thumbnails/ranks.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743549174218893/ranks.mp4?ex=68ddc8af&is=68dc772f&hm=78c73635a91c78752248bd17fdeb11a4a101a9859c9eac24e9f26dff2fa630e2&',
+    video: 'https://project-resonance.fr/video/ranks.mp4',
     category: 'for-sale'
   },
   {
@@ -455,7 +455,7 @@ export const plugins = [
     title: 'Discord Integration',
     description: 'Integrate your server with Discord, with OOC between Discord and the server and more.',
     thumbnail: 'assets/img/thumbnails/discord_integration.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743546443862147/oocdiscord_logsreqwest.mp4?ex=68ddc8ae&is=68dc772e&hm=4ac407d6f039b041a207ea7415af97cf2f8725f58fe837f2375922f8a6a04a06&',
+    video: 'https://project-resonance.fr/video/oocdiscord_logsreqwest.mp4',
     category: 'private'
   },
   {
@@ -463,7 +463,7 @@ export const plugins = [
     title: 'Bags Category',
     description: 'Define category for bags to put specific items in them.',
     thumbnail: 'assets/img/thumbnails/bags_category.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743343930281994/bagscategory.mp4?ex=68ddc87e&is=68dc76fe&hm=2e65fd1e73758b21e99a0008abfb47482240a9cd8f640ce7e45a0fae40a6d140&',
+    video: 'https://project-resonance.fr/video/bagscategory.mp4',
     category: 'for-sale'
   },
   {
@@ -471,7 +471,7 @@ export const plugins = [
     title: 'Laundry System',
     description: 'A comprehensive system for laundering clothes.',
     thumbnail: 'assets/img/thumbnails/laundry.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743458921320469/laundry.mp4?ex=68ddc899&is=68dc7719&hm=aa075820f51dcb2c79e3c60cafb73b8ba6c841432bf9d4861e5415979470c69d&',
+    video: 'https://project-resonance.fr/video/laundry.mp4',
     category: 'for-sale'
   },
   {
@@ -479,7 +479,7 @@ export const plugins = [
     title: 'Flyer',
     description: 'Create and distribute custom flyers in-game for your servers.',
     thumbnail: 'assets/img/thumbnails/flyer.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743448544608439/flyer.mp4?ex=68ddc897&is=68dc7717&hm=e61c99afec11bedf908e6175c49e086553053c2989db7dfb4c5383893a587fc4&',
+    video: 'https://project-resonance.fr/video/flyer.mp4',
     category: 'for-sale'
   },
   {
@@ -487,7 +487,7 @@ export const plugins = [
     title: 'Advanced Forcefield',
     description: 'Sophisticated forcefield system with customizable parameters.',
     thumbnail: 'assets/img/thumbnails/advanced_forcefield.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743335822557286/advforcefield.mp4?ex=68ddc87c&is=68dc76fc&hm=8145b468d4e9e4d5c8929686ee8dbedf2d7548310f40a36b187ea07da0a528bd&',
+    video: 'https://project-resonance.fr/video/advforcefield.mp4',
     category: 'for-sale'
   },
   {
@@ -495,7 +495,7 @@ export const plugins = [
     title: 'Cooking System',
     description: 'Create and cook recipes with custom ingredients.',
     thumbnail: 'assets/img/thumbnails/cooking.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743435667968040/cooking.mp4?ex=68ddc894&is=68dc7714&hm=97bc1211af1867e9fb53a81b109a7d1b02ee5cdcf27a64d6794f9468582a2949&',
+    video: 'https://project-resonance.fr/video/cooking.mp4',
     category: 'for-sale'
   },
   {
@@ -503,7 +503,7 @@ export const plugins = [
     title: 'Lootbox',
     description: 'Customizable lootbox system with probability-based rewards.',
     thumbnail: 'assets/img/thumbnails/lootbox.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743462390005821/lootbox.mp4?ex=68ddc89a&is=68dc771a&hm=f78996b42b56d10b2232cc1d3dccfbefe8ab154f94cd8904d1da73b299769a74&',
+    video: 'https://project-resonance.fr/video/lootbox.mp4',
     category: 'for-sale'
   },
   {
@@ -511,7 +511,7 @@ export const plugins = [
     title: 'ReShade',
     description: 'In-game graphics enhancement with customizable parameters.',
     thumbnail: 'assets/img/thumbnails/reshade.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743552093327400/reshade.mp4?ex=68ddc8b0&is=68dc7730&hm=a1de64d1903d3e28eafb2a3eeb871e7fc1887cc7b44168bf47c0de49d02d9911&',
+    video: 'https://project-resonance.fr/video/reshade.mp4',
     category: 'private'
   },
   {
@@ -519,7 +519,7 @@ export const plugins = [
     title: 'Tying Overhauled',
     description: 'Enhanced restraint system with advanced features.',
     thumbnail: 'assets/img/thumbnails/tying_overhaul.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743621131829269/tyingoverhaul.mp4?ex=68ddc8c0&is=68dc7740&hm=1c031f4bf715f6140b66b140dfef94d64ff860ee06df9e7fea1b88fd6b9c4f3e&',
+    video: 'https://project-resonance.fr/video/tyingoverhaul.mp4',
     category: 'for-sale'
   },
   {
@@ -527,7 +527,7 @@ export const plugins = [
     title: 'Resistance Locker',
     description: 'Uniform switching system for resistance factions.',
     thumbnail: 'assets/img/thumbnails/resistance_locker.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743556602200074/resistancelocker.mp4?ex=68ddc8b1&is=68dc7731&hm=98e5320f069a326bef83f87936d17881d8cef62f8c8ce3a11af5b0a9c3621b2b&',
+    video: 'https://project-resonance.fr/video/resistancelocker.mp4',
     category: 'for-sale'
   },
   {
@@ -535,7 +535,7 @@ export const plugins = [
     title: 'Medical System',
     description: 'Complex medical simulation with injuries and treatments.',
     thumbnail: 'assets/img/thumbnails/medical_system.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743338955571321/advmedicalsys.mp4?ex=68ddc87d&is=68dc76fd&hm=901a98d3a11d3effe49c524606df211218e22b45fe88529bc07209d789b4a64e&',
+    video: 'https://project-resonance.fr/video/advmedicalsys.mp4',
     category: 'for-sale'
   },
   {
@@ -543,7 +543,7 @@ export const plugins = [
     title: 'Wiretap',
     description: 'Advanced surveillance system with monitoring capabilities.',
     thumbnail: 'assets/img/thumbnails/wiretap.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743624726347838/wiretap.mp4?ex=68ddc8c1&is=68dc7741&hm=52bada9eb455d08e8afa1cadf44f4eeefd8f51931609589c5122158636960bce&',
+    video: 'https://project-resonance.fr/video/wiretap.mp4',
     category: 'for-sale'
   },
   {
@@ -551,7 +551,7 @@ export const plugins = [
     title: 'Serial Number',
     description: 'Weapon tracking system with forensic capabilities.',
     thumbnail: 'assets/img/thumbnails/serial_number.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743614903287918/serial_number.mp4?ex=68ddc8bf&is=68dc773f&hm=5ca90d3be43ab34eec9f1db4d518a8a01b00ceab459efe5f74830863684452bd&',
+    video: 'https://project-resonance.fr/video/serial_number.mp4',
     category: 'for-sale'
   },
   {
@@ -559,7 +559,7 @@ export const plugins = [
     title: 'NPC Drop Config Menu',
     description: 'In-game interface for configuring NPC loot drops.',
     thumbnail: 'assets/img/thumbnails/npc_drop_config.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743543218442381/npc_drop_config_menu.mp4?ex=68ddc8ae&is=68dc772e&hm=2ca17d235fe334f90e96d8fba3322ca65f7bc0e736b2d8605631b83a2b146200&',
+    video: 'https://project-resonance.fr/video/npc_drop_config_menu.mp4',
     category: 'for-sale'
   },
   {
@@ -567,7 +567,7 @@ export const plugins = [
     title: 'Gathering',
     description: 'Resource collection system with respawning nodes.',
     thumbnail: 'assets/img/thumbnails/gathering_system.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743627972743318/woodrock_mining.mp4?ex=68ddc8c2&is=68dc7742&hm=45bd791bdfbb60ae10904cb7c3181a77e32daf2dd4d37d1e33cfb9b7abab94cf&',
+    video: 'https://project-resonance.fr/video/woodrock_mining.mp4',
     category: 'for-sale'
   },
   {
@@ -575,7 +575,7 @@ export const plugins = [
     title: 'Medal System',
     description: 'Achievement and recognition system with visual badges.',
     thumbnail: 'assets/img/thumbnails/medal_system.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743540290551879/medal_system.mp4?ex=68ddc8ad&is=68dc772d&hm=d821a9551947ac8380510b5d8cd6a17afb217f0a9f948139357244bb9dac3e75&',
+    video: 'https://project-resonance.fr/video/medal_system.mp4',
     category: 'for-sale'
   },
   {
@@ -583,7 +583,7 @@ export const plugins = [
     title: 'Door Class Group',
     description: 'Advanced door access control based on class groups.',
     thumbnail: 'assets/img/thumbnails/door_class_group.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743444983644290/doorclassgroup.mp4?ex=68ddc896&is=68dc7716&hm=86369fee3d74ab88b8c995edf03575958bc56d71eb4f33876e0c22bf0be29e10&',
+    video: 'https://project-resonance.fr/video/doorclassgroup.mp4',
     category: 'for-sale'
   },
   {
@@ -591,7 +591,7 @@ export const plugins = [
     title: 'Airdrop',
     description: 'Scheduled supply drops at designated locations.',
     thumbnail: 'assets/img/thumbnails/airdrop.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743342068011100/airdrop.mp4?ex=68ddc87e&is=68dc76fe&hm=280ffe0f773b752115d9d4255bb47edb7f19af720a5219fb8930ba3bd4f43879&',
+    video: 'https://project-resonance.fr/video/airdrop.mp4',
     category: 'for-sale'
   },
   {
@@ -599,7 +599,7 @@ export const plugins = [
     title: 'Cinematic Menu',
     description: 'Interface for creating immersive cinematics for your servers.',
     thumbnail: 'assets/img/thumbnails/cinematic_menu.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743352188604537/cinematic_menu.mp4?ex=68ddc880&is=68dc7700&hm=e4c43c9c813e83a97b83a62565a9948ab73a9c689f15ed1d5b91b61be8902433&',
+    video: 'https://project-resonance.fr/video/cinematic_menu.mp4',
     category: 'public'
   },
   {
@@ -607,7 +607,7 @@ export const plugins = [
     title: 'Slot Machine',
     description: 'Fully functional gambling machine with customizable odds.',
     thumbnail: 'assets/img/thumbnails/slot_machine.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743618191622154/slot_machine.mp4?ex=68ddc8bf&is=68dc773f&hm=d0272ef172f8efb80bca363bac8756fb10ccff40f2a30366a2958ccc93300132&',
+    video: 'https://project-resonance.fr/video/slot_machine.mp4',
     category: 'public'
   },
   {
@@ -615,7 +615,7 @@ export const plugins = [
     title: 'Broken Glass',
     description: 'Environmental enhancement for City 8: Definitive Edition.',
     thumbnail: 'assets/img/thumbnails/broken_glass.png',
-    video: 'https://cdn.discordapp.com/attachments/1422743213621379144/1422743350062350386/broken_glass.mp4?ex=68ddc87f&is=68dc76ff&hm=a044974a2284fc39cf1748a2c2453ff46b7273a66483600c198d5f2072957dc4&',
+    video: 'https://project-resonance.fr/video/broken_glass.mp4',
     category: 'public'
   }
 ];
